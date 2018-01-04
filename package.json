@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "The simplest way to backup a file to S3.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "github.com:/pcsforeducation/s3-backup.git"
+    "url": "https://github.com:/pcsforeducation/s3-backup.git"
   },
   "keywords": ["backup", "sysadmin", "utility", "s3", "aws"],
   "author": "Josh Gachnang",
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "2.176.0"
+  },
+  "bin": {
+    "s3-backup": "./index.js"
   }
 }
