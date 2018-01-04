@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+"use strict";
+
 const AWS = require("aws-sdk");
 
 if (require.main === module) {

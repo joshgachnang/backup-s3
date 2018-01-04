@@ -14,7 +14,7 @@ Next, install this package. You can do this on your local machine or the machine
 
 You can then generate an upload and download URL like this:
 
-    s3-backup $BUCKET_NAME $FILENAME
+    backup-s3 $BUCKET_NAME $FILENAME
 
 You should get some output like this:
 
