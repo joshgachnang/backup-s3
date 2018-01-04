@@ -1,19 +1,13 @@
 {
   "name": "backup-s3",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "The simplest way to backup a file to S3.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com:/pcsforeducation/s3-backup.git"
+    "url": "https://github.com:/pcsforeducation/backup-s3.git"
   },
-  "keywords": [
-    "backup",
-    "sysadmin",
-    "utility",
-    "s3",
-    "aws"
-  ],
+  "keywords": ["backup", "sysadmin", "utility", "s3", "aws"],
   "author": "Josh Gachnang",
   "license": "MIT",
   "dependencies": {

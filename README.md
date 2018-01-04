@@ -1,4 +1,4 @@
-# s3-backup
+# backup-s3
 
 The simplest way to backup a file to S3.
 
@@ -10,7 +10,7 @@ Next, make sure you have your AWS credentials set up. See the AWS documentation 
 
 Next, install this package. You can do this on your local machine or the machine you're backing up. You must have the AWS credentials on the machine you use to generate the URL.
 
-    npm install -g s3-backup
+    npm install -g backup-s3
 
 You can then generate an upload and download URL like this:
 
